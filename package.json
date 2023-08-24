@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Hexlet second project",
   "main": "index.js",
+  "bin": {
+    "gendiff": "gendiff.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
