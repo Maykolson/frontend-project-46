@@ -1,5 +1,5 @@
 {
-  "name": "frontend-project-46",
+  "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "Hexlet second project",
   "main": "index.js",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Maykolson/frontend-project-46/issues"
   },
-  "homepage": "https://github.com/Maykolson/frontend-project-46#readme"
+  "type": "module",
+  "homepage": "https://github.com/Maykolson/frontend-project-46#readme",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
 }
