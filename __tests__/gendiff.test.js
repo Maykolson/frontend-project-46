@@ -12,7 +12,7 @@ const readFile = (filename) => fs.readFileSync(getFixturePath(filename), 'utf-8'
 const expectedStylish = readFile('expectedStylish.txt');
 
 test.each(['json'])('%s test', (format) => {
-    const file1 = getFixturePath(`file1.${format}`);
-    const file2 = getFixturePath(`file2.${format}`);
-    expect(generateDiffs(file1, file2, 'stylish')).toEqual(expectedStylish);
-  });
+  const file1 = getFixturePath(`file1.${format}`);
+  const file2 = getFixturePath(`file2.${format}`);
+  expect(generateDiffs(file1, file2, 'stylish')).toEqual(expectedStylish);
+});
