@@ -6,5 +6,5 @@ lint:
 	npx eslint
 test:
 	npx jest
-coverage:
+test-coverage:
 	npx jest --coverage
