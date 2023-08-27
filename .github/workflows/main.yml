@@ -1,8 +1,37 @@
-name: tests
-on: push
+name: Lint-code-check
+ 
+on:
+  push:
+    branches:
+      - '**'
+    tags:
+      - '**'
 jobs:
-  my-job:
+  run-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: make test
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Lint code
+        run: npx eslint .
+
+      - name: Run tests
+        run: npx jest
+
+      - name: Show test coverage
+        run: npx jest --coverage
+
+      - name: Test & publish code coverage
+        # Publish code coverage on Code Climate
+        # https://github.com/paambaati/codeclimate-action
+        uses: paambaati/codeclimate-action@v2.7.4
+        # Add Code Climate secret key
+        env:
+          CC_TEST_REPORTER_ID: e189edbd0c281cf860c1aeb7854b9cc98b5299047b61a3a9d22706902aa51bce
+        with:
+          coverageCommand: make test-coverage
+          debug: true
