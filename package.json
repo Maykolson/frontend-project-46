@@ -29,5 +29,10 @@
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1"
   }
 }
