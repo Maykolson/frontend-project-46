@@ -1,11 +1,11 @@
-#### Hexlet second project Difference Calculator | Второй проект по хекслету "Вычислитель отличий"
+# Hexlet second project Difference Calculator | Второй проект по хекслету "Вычислитель отличий"
 
 
 ## Примеры работы:
-# stylish format (default)
+### stylish format (default)
 [![asciicast](https://asciinema.org/a/OQcAkKxtzKfmbSx5E0KLedZmr.svg)](https://asciinema.org/a/OQcAkKxtzKfmbSx5E0KLedZmr)
 
-# plain format
+### plain format
 [![asciicast](https://asciinema.org/a/AgSmUwYBdcKi4k63goYheUK8h.svg)](https://asciinema.org/a/AgSmUwYBdcKi4k63goYheUK8h)
 
 
