@@ -2,12 +2,14 @@
 
 
 ### Примеры работы:
-#### stylish format (default)
+#### Stylish format (default)
 [![asciicast](https://asciinema.org/a/OQcAkKxtzKfmbSx5E0KLedZmr.svg)](https://asciinema.org/a/OQcAkKxtzKfmbSx5E0KLedZmr)
 
-#### plain format
+#### Plain format
 [![asciicast](https://asciinema.org/a/AgSmUwYBdcKi4k63goYheUK8h.svg)](https://asciinema.org/a/AgSmUwYBdcKi4k63goYheUK8h)
 
+#### Json format
+[![asciicast](https://asciinema.org/a/dBP45h4K8k2VvNknRG3kkRYZf.svg)](https://asciinema.org/a/dBP45h4K8k2VvNknRG3kkRYZf)
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Maykolson/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Maykolson/frontend-project-46/actions) [![Lint-code-check](https://github.com/Maykolson/frontend-project-46/actions/workflows/main.yml/badge.svg)](https://github.com/Maykolson/frontend-project-46/actions/workflows/main.yml)
