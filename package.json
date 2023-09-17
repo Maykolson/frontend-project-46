@@ -25,10 +25,8 @@
   "homepage": "https://github.com/Maykolson/frontend-project-46#readme",
   "dependencies": {
     "commander": "^11.0.0",
-    "file-system": "^2.2.2",
     "js-yaml": "^4.1.0",
-    "lodash": "^4.17.21",
-    "path": "^0.12.7"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
