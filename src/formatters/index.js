@@ -2,7 +2,7 @@ import plain from './plain.js';
 import stylish from './stylish.js';
 
 const getFormat = (tree, formatName) => {
-  switch(formatName) {
+  switch (formatName) {
     case 'plain':
       return plain(tree);
     case 'stylish':
@@ -11,6 +11,6 @@ const getFormat = (tree, formatName) => {
       return JSON.stringify(tree);
     default:
       return '';
-  };
+  }
 };
 export default getFormat;

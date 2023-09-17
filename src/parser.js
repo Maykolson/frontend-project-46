@@ -1,16 +1,14 @@
-import path from 'path';
 import yaml from 'js-yaml';
 
-const parseData = (filepath) => {
-  if (path.extname(filepath) === '.json') {
-    return JSON.parse;
+const parse = (data, extname) => {
+  switch (extname) {
+    case 'json':
+      return JSON.parse(data);
+    case 'yml':
+    case 'yaml':
+      return yaml.load(data);
+    default:
+      return '';
   }
-  if (path.extname(filepath) === '.yml') {
-    return yaml.load;
-  }
-  if (path.extname(filepath) === '.yaml') {
-    return yaml.load;
-  }
-  return '';
 };
-export default parseData;
+export default parse;
