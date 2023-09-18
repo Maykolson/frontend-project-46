@@ -10,7 +10,7 @@ const getFormat = (tree, formatName) => {
     case 'json':
       return JSON.stringify(tree);
     default:
-      return '';
+      return `${formatName} is wrong format.`;
   }
 };
 export default getFormat;

@@ -8,7 +8,7 @@ const parse = (data, extname) => {
     case 'yaml':
       return yaml.load(data);
     default:
-      return '';
+      return `${extname} is wrong format.`;
   }
 };
 export default parse;
